@@ -1,0 +1,5 @@
+# Virtualenv folders
+venv/
+.venv/
+env/
+.idea
