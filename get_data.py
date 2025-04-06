@@ -7,8 +7,4 @@ def get_price_from_bybit(symbol):
     data = response.json()
     return data
 
-price = get_price_from_bybit('ARBUSDT')
-print(price['result']['list'][0]['symbol'])
-print(price['result']['list'][0]['lastPrice'])
-
 
